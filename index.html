@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION FORM</title>
+</head>
+<body>
+    <section>
+        <form>
+            <h2>Application form</h2><br><br>
+            <label>First Name
+                <input type="text" placeholder="Enter first name" required>
+            </label>
+            <label>Last Name &#42;
+                <input type="text" placeholder="Enter last name" required>
+            </label><br><br>
+            <label>Gender &#42;
+                <select name="Gender" id="Gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </label>
+            <label>Date of Birth &#42;
+                <input type="date" required>
+            </label><br><br>
+            <label>Email Address &#42;
+                <input type="email" placeholder="Enter email" required>
+            </label><br><br>
+            <label for="EducationalLevel">Educational Level &#42;</label>
+            <select name="EducationalLevel" id="EducationalLevel" required>
+                <option value="primary">Primary</option>
+                <option value="secondary">Secondary</option>
+                <option value="tertiary">Tertiary</option>
+            </select><br><br>
+            <label>Country &#42;
+                <select class="form-select" id="country" name="country" required>
+                    <option value="">Select country</option>
+                    <!-- Add closing </option> tags for each country -->
+                    <!-- ... (list of countries) ... -->
+                </select>
+            </label>
+            <label>State/City of Residence &#42;
+                <select name="state" id="state" required>
+                    <option value="">Select State</option>
+                    <!-- ... (list of states) ... -->
+                </select>
+            </label><br><br>
+            <label>Employment Status &#42;
+                <select name="employment" id="employment-status" required>
+                    <option value="">Select Employment Status</option>
+                    <option value="Employed">Employed</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="Retired">Retired</option>
+                    <option value="Self-employed">Self-employed</option>
+                    <option value="Student">Student</option>
+                </select>
+            </label>
+            <label>Phone Number &#42;
+                <input type="tel" placeholder="081234567890" required>
+            </label><br><br>
+            <label>Choose School
+                <select name="school" required id="Schooltrack">
+                    <option value="Engineering">School of Engineering</option>
+                    <option value="Product">School of Product</option>
+                    <option value="Data">School of Data</option>
+                </select>
+            </label>
+            <label>Choose Course of Study &#42;
+                <select name="course" required id="course-of-study">
+                    <option value="">Select Course</option>
+                    <option value="Frontend engineering">FrontEnd</option>
+                    <option value="Backend engineering">BackEnd</option>
+                    <option value="Cloud engineering">Cloud Engineering</option>
+                </select>
+            </label><br><br>
+            <label>How did you hear about us? &#42;
+                <select name="channels" required id="channell">
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Twitter">Twitter</option>
+                </select>
+            </label><br><br>
+            <label>Scholarship/Discount Code (optional)<br>
+                <input type="text" placeholder="Enter your discount code">
+                <br>
+                <input placeholder="Scholarship or student ID" type="text">
+            </label><br><br>
+            <input type="button" value="Submit">
+        </form>
+
+    </section>
+    <section id="terms"><p>By clicking continue, I agree to
+        <a href="#">Terms and Conditions</a> and acknowledge that I agree to the <a href="#">Privacy Policy</a></p></section>
+    <button type="submit">Proceed</button>
+    <p>Already have an account? <a href="https://altschoolafrica.com">Sign in</a></p>
+    <footer>
+        <a href="https://altschoolafrica.com" target="_blank">Home Page</a>
+        <a href="http://127.0.0.1:5500/html-101/indexf.html"></a>
+        <p>Copyright &copy; 2023 <NAME></p>
+    </footer>
+</body>
+</html>
+
+
